@@ -29,7 +29,7 @@ The document might be an analysis result, ECG, radio, prescription, or a paper w
 - **/extract** 
     - *Methods*: POST
     - *Parameters*: Content --> Text
-    - *Description*:  
+    - *Description*:  This method will extract all relevant medical information from a doctor's written text. To do this, a model for entity recognition based on distilbert-base-uncased and trained on extracted medical tokens was utilized.    
 
 - **/extract_disease** 
     - *Methods*: POST
